@@ -16,7 +16,7 @@ ActiveRecord::Schema.define(version: 2024_12_24_155013) do
     t.string "title"
     t.string "description"
     t.string "body"
-    t.string "tagList"
+    t.text "tagList"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
